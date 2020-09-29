@@ -9,8 +9,7 @@ day6=6;
 day7=7;
 randomNum=$(($RANDOM % (7 - 1 + 1) + 1 ));
 
-echo "ENTER THE NUMBER"
-read $randomNum
+echo "ENTER THE NUMBER" $randomNum
 
 if [ $randomNum -eq $day1 ];
 then

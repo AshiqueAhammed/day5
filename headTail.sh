@@ -3,7 +3,7 @@
 printf "Choose (h)eads or (t)ails: "
 read user_choice
 
-comp_choice=$((RANDOM % (2 + 1)))
+comp_choice=$((RANDOM % 2 + 1))
 if [ $comp_choice -eq 1 ]; then
 	echo "Computer chose HEADS"
 else

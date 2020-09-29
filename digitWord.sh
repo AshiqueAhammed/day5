@@ -11,8 +11,7 @@ num8=8;
 num9=9;
 randomNum=$(( $RANDOM % 10 ));
 
-echo "ENTER THE NUMBER"
-read $randomNum
+echo "ENTER THE NUMBER" $randomNum
 
 if [ $randomNum -eq $num0 ];
 then

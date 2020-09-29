@@ -1,3 +1,5 @@
+#!/bin/bash -x
+
 echo -n "Enter number : "
 n=$(( $RANDOM % 10 ))
 

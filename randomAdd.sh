@@ -11,7 +11,7 @@ done
 
 echo "ADDITION" $sum;
 
-avg=$(( sum / 5 ));
+avg=$(echo "$sum / $i" | bc -l );
 
 echo "AVERAGE" $avg;
 
